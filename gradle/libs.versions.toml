@@ -13,6 +13,7 @@ osmdroidBonuspack = "6.6.0"
 osmdroidMapsforge = "6.1.10"
 osmdroidWms = "6.1.10"
 preferenceKtx = "1.2.1"
+playServicesLocation = "21.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +35,7 @@ osmdroid-bonuspack = { module = "org.osmdroid:osmdroid-bonuspack", version.ref =
 osmdroid-mapsforge = { module = "org.osmdroid:osmdroid-mapsforge", version.ref = "osmdroidMapsforge" }
 osmdroid-wms = { module = "org.osmdroid:osmdroid-wms", version.ref = "osmdroidWms" }
 androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
